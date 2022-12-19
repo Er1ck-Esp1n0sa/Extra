@@ -1,41 +1,39 @@
-<body>
-    
-<div class="contenedor">
+<body class="fondo">
+
+<div class="contenedor1">
+    <h1>Ecuacion a resolver: y = ax+b</h1>
+
     <form>
-     <hr>
-    <div>
-        <span class="icon-input2"><i>a</i></span>
-        <input type="number" [(ngModel)]="a" class = "data-input" name="a"
-         placeholder="0.0" />
-    </div>
-    <hr>
-    <hr>
-    <div>
+      <div class="input">
+        <span class="icon-input"><i>x</i></span>
+        <input type="text" [(ngModel)]="array" class="data-input" name="array">
+      </div>
+
+      <div>
+        <span class="icon-input1"><i>a</i></span>
+        <input type="number" [(ngModel)]="a"  class="data-input" name="a"
+          placeholder="0.0" />
+      </div>
+
+      <div>
         <span class="icon-input2"><i>b</i></span>
-        <input type="number" [(ngModel)]="b" class = "data-input" name="b"
-        placeholder="0.0" />
-    </div>
-    <hr>
-    <div>
-        <span class="icon-input3"><i>x</i></span>
-        <input type="text" [(ngModel)]="x" class = "data-input" name="x"
-        placeholder="0.0, 0.0, 0.0, 0.0" />
-    </div>
-    <hr>
+        <input type="number" [(ngModel)]="b"  class="data-input" name="b"
+          placeholder="0.0" />
+      </div>
     </form>
-
+  
     <div class="gruop-buttons">
-        <div class="buttons Variacion-button" (click)="variacion()">
-            <i>Variacion<Main></Main></i>
-        </div>
+      <div class="button" (click)="y()">
+        <i>Calcular<Main></Main></i>
+      </div>
     </div>
-    <hr>
-
+  
     <div id="result-box">
-        <div class="Variacion-container">
-            <div class="Variacion resultV"><span>Resultado de variacion = </span>{{ TextV }}</div>
-        </div>
+      <div class="container">
+        <div class=" resultS"><span>Resultado de la ecuacion: </span></div>
+        <div class=" result">{{Result}}</div>
+      </div>
     </div>
-</div>
+  </div>
 
 </body>
