@@ -1,0 +1,99 @@
+.contenedor1{
+    margin-right: 100vw;
+    display: grid;
+    place-items: center;
+    color: #24c216;
+    border-radius: 1vh;
+    border-color: #0a2b61;
+    border-style:solid;
+    margin: 0vw;
+}
+
+.fondo{
+    background-image: url("https://estaticos-cdn.sport.es/clip/e443d7b0-f9a3-49bf-9db3-55b086a0eaf8_alta-libre-aspect-ratio_default_0.jpg");
+}
+
+.input {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0 1vh 0;
+}
+
+.icon-input{
+    font-size: 2.5vh;
+    padding: 0 1vw;
+}
+
+.icon-input1{
+    font-size: 2.5vh;
+    padding: 0 1vw;
+}
+.icon-input2{
+    font-size: 2.5vh;
+    padding: 0 1vw;
+}
+.data-input {
+    width: 30vw;
+    height: 100%;
+    padding: .30em;
+    border-radius: 1vh;
+    border-style: solid;
+    font-size: 1em;
+  }
+  .data-input2 {
+    width: 10vw;
+    height: 100%;
+    padding: .30em;
+    border-radius: 1vh;
+    border-style: solid;
+    font-size: 1em;
+  }
+
+.gruop-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh 0 1vh 0;
+  
+}
+
+.button{
+    margin: vw;
+    height: 4vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 4vh;
+    color: rgb(219, 14, 14);
+    border-color: #452d44;
+    border-style: solid;
+}
+
+.resultS{
+    margin: 2vw;
+    height: 6vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vw;
+    font-size: 4vh;
+    color: rgb(20, 102, 217);
+
+}
+.result{
+    margin: 2vw;
+    height: 6vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vw;
+    font-size: 4vh;
+    color: rgb(43, 178, 126);
+
+}
