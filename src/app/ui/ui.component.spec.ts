@@ -66,11 +66,11 @@ describe('Variacion UiComponent', () => {
     fixture.detectChanges();
     const inputElement = fixture.debugElement.query(By.css('input[name="x"]')).nativeElement;
 
-    inputElement.value = '0.0, 1.0, 2.0, 3.0';
+    inputElement.value = '0, 1, 2, 3';
     inputElement.dispatchEvent(new Event('input'));
     fixture.detectChanges();
 
-    expect(component.x).toBe([0.0, 1.0, 2.0, 3.0]);
+    expect(component.x).toEqual([0.0,1.0,2.0,3.0]);
   });
 
   it('should add a, b and x when i click the variacion button ', () => {
@@ -91,6 +91,7 @@ describe('Variacion UiComponent', () => {
   
     component.a = 2;
     component.b = 1;
+    component.x= [0.0, 1.0, 2.0, 3.0];
 
     component.variacion();
     fixture.detectChanges();
@@ -98,7 +99,7 @@ describe('Variacion UiComponent', () => {
     let de = fixture.debugElement.query(By.css('.resultV'));
     let el : HTMLElement = de.nativeElement;
 
-    expect(el.innerHTML).toContain('1, 3, 5, 7');
+    expect(el.innerText).toContain('1,3,5,7');
   });
 
 });

@@ -17,26 +17,20 @@
 .icon-input1{
     font-size: 2.5vh;
     padding: 0 1vw;
-    color: aliceblue;
+    color: rgb(53, 173, 46);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .icon-input2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
+    color: rgb(78, 171, 25);
     font-size: 2.5vh;
     padding: 0 1vw;
 }
 
 .icon-input3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
-    font-size: 2.5vh;
-    padding: 0 1vw;
-}
-
-.icon-input4{
-    font-family: 'Gothic';
+    color: rgb(200, 58, 213);
     font-size: 2.5vh;
     padding: 0 1vw;
 }
@@ -66,7 +60,7 @@
     border-radius: 12px;
     font-size: 2.5vh;
     padding: 0.1vw;
-    background-color: aliceblue;
+    background-color: rgb(114, 22, 176);
 }
 
 .resultV {
@@ -78,7 +72,7 @@
     align-items: center;
     padding: 0 1vw;
     font-size: 3vh;
-    color: aliceblue;
+    color: rgb(49, 113, 168);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
