@@ -6,12 +6,13 @@ import { variacion } from '../Formula/formula';
   templateUrl: './ui.component.html',
   styleUrls: ['./ui.component.css']
 })
-export class UiComponent implements OnInit {
+export class UiComponent implements OnInit{
 
   a : number = 0;
   b : number = 0;
-  y : any;
-  x : any;
+  x = [0, 0, 0, 0];
+  y = [0, 0, 0, 0];
+  TextV : any;
 
   constructor() { }
 
@@ -19,8 +20,10 @@ export class UiComponent implements OnInit {
   }
 
   variacion() {
-    let result = [];
-    result = variacion(this.a, this.b, this.x);
-  }
+    let result : number[];
+    result = variacion(this.a, this.b, this.x);
+    this.y = result;
+    this.TextV = this.y;
+  }
 
 }
